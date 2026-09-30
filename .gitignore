@@ -1,0 +1,32 @@
+# Ignore build outputs from performing a nix-build or `nix build` command
+result
+result-*
+
+# env stuff
+.env/
+.direnv/
+.devenv/
+.vscode/
+.obsidian/
+.trash/
+.zed/
+
+# Ignore NixOS interactive test driver history
+**/.nixos-test-history
+
+# Editor and OS leftovers
+*~
+*.swp
+*.bak
+*.orig
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Future proofing in case I start declaring secrets
+.env
+*.key
+*.pem
+.sops.yaml
+secrets/
+*/sops/*
