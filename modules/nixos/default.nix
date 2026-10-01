@@ -1,5 +1,6 @@
-{ pkgs, ... }: {
+{ pkgs, inputs, ... }: {
   imports = [
+    inputs.umbriel.nixosModules.default
     ./boot.nix
     ./audio.nix
   ];
@@ -16,6 +17,7 @@
   };
 
   programs.fish.enable = true;
+  programs.umbriel.enable = true;
 
   # In case I ever need this.
   # environment.systemPackages = with pkgs; [
