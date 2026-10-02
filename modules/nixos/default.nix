@@ -4,6 +4,7 @@
     ./audio.nix
     ./umbriel.nix
     ./noctalia.nix
+    ./greeter.nix
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
