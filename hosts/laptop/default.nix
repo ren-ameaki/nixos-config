@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   imports = [
     ./hardware-configuration.nix
-    ./hardware.nix
+    ./core.nix
   ];
 
   networking.hostName = "NixOS-Laptop";
