@@ -8,5 +8,4 @@
   ];
 
   programs.fish.enable = true;
-  programs.dconf.enable = true;
 }
