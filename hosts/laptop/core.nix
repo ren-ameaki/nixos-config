@@ -27,6 +27,9 @@
   services.upower.enable = true;
   services.power-profiles-daemon.enable = true;
 
+  # Storage
+  services.udisks2.enable = true;
+
   # Swap
   swapDevices = [
     {
