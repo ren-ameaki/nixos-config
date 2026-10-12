@@ -4,6 +4,7 @@
     ./git.nix
     ./umbriel.nix
     ./udiskie.nix
+    ./gtk.nix
   ];
 
   home.packages = with pkgs; [
