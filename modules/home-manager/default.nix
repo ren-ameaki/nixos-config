@@ -9,7 +9,6 @@
   home.packages = with pkgs; [
     tree
     kitty
-    glib
     adw-gtk3
     brave-origin
   ];
